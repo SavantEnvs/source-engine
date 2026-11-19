@@ -1,0 +1,7 @@
+# Build context for mayhem/Dockerfile: the full repo incl. .git, minus local build outputs.
+build-test/
+build-fuzz/
+.waf3-*/
+.lock-waf*
+fuzz_*
+ctrf-report.json

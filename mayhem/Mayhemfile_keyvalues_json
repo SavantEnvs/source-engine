@@ -1,0 +1,11 @@
+project: savantenvs/source-engine
+target: keyvalues-json
+image: ghcr.io/savantenvs/source-engine:latest
+duration: 1200
+cmds:
+  - cmd: /mayhem/fuzz_keyvalues_json
+    libfuzzer: true
+    timeout: 30
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/keyvalues-json/testsuite

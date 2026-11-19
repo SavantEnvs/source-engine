@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/brickwall031b"
+	"$surfaceprop" "brick"
+	"$detailscale" "4.5"
+	"$color" "[1 0.5 0.25]"
+	"%keywords" "cs_italy"
+	"$envmap" "env_cubemap" [$WIN32]
+	"$bumpmap" "brick/brickwall031b_normal" [!$X360]
+	"Proxies"
+	{
+		"AnimatedTexture" { "animatedtextureframerate" "30" }
+	}
+}

@@ -1,0 +1,1 @@
+{ "name": "test", "values": [1, 2.5, -3e2, true, false, null], "nested": {"a": "esc\n\u00e9\"q"}, "empty": {} }

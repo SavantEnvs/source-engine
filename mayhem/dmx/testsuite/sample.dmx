@@ -1,0 +1,19 @@
+<!-- dmx encoding keyvalues2 1 format dmx 1 -->
+"DmElement"
+{
+	"id" "elementid" "5a0b6e6a-ff2c-4a62-a7a7-9a5d8b2c1f00"
+	"name" "string" "root"
+	"count" "int" "3"
+	"scale" "float" "1.5"
+	"enabled" "bool" "1"
+	"color" "color" "255 128 0 255"
+	"origin" "vector3" "1 2 3"
+	"angles" "qangle" "0 90 0"
+	"names" "string_array" [ "a", "b" ]
+	"child" "DmeChild"
+	{
+		"id" "elementid" "1b0b6e6a-ff2c-4a62-a7a7-9a5d8b2c1f01"
+		"name" "string" "kid"
+		"data" "binary" "0102030405"
+	}
+}
